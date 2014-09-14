@@ -1,0 +1,217 @@
+%\title{Mahmoud Fayyaz CV}
+\documentclass[paper=a4,fontsize=11pt]{scrartcl} % KOMA-article class
+							
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{amsmath,amsfonts,amsthm}     % Math packages
+\usepackage{graphicx}                    % Enable pdflatex
+\usepackage[svgnames]{xcolor}            % Colors by their 'svgnames'
+\usepackage{geometry}
+	\textheight=700px                    % Saving trees ;-)
+\usepackage{url}
+\usepackage{hyperref}
+
+
+\frenchspacing              % Better looking spacings after periods
+\pagestyle{empty}           % No pagenumbers/headers/footers
+
+%%% Custom sectioning (sectsty package)
+%%% ------------------------------------------------------------
+\usepackage{sectsty}
+
+\sectionfont{%			            % Change font of \section command
+	\usefont{OT1}{phv}{b}{n}%		% bch-b-n: CharterBT-Bold font
+	\sectionrule{0pt}{0pt}{-5pt}{3pt}}
+
+%%% Macros
+%%% ------------------------------------------------------------
+\newlength{\spacebox}
+\settowidth{\spacebox}{8888888888}			% Box to align text
+\newcommand{\sepspace}{\vspace*{1em}}		% Vertical space macro
+
+\newcommand{\MyName}[1]{ % Name
+		\Huge \usefont{OT1}{phv}{b}{n} \hfill #1
+		\par \normalsize \normalfont}
+		
+\newcommand{\MySlogan}[1]{ % Slogan (optional)
+		\large \usefont{OT1}{phv}{m}{n}\hfill \textit{#1}
+		\par \normalsize \normalfont}
+
+\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
+
+\newcommand{\PersonalEntry}[2]{
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}		       % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value
+
+\newcommand{\SkillsEntry}[2]{      % Same as \PersonalEntry
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}			   % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value
+
+\newcommand{\AwardEntry}[2]{      % Same as \PersonalEntry
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}			   % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value
+        
+\newcommand{\OtherExperienceEntry}[2]{      % Same as \PersonalEntry
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}			   % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value
+        
+\newcommand{\EducationEntry}[4]{
+		\noindent \textbf{#1} \hfill      % Study
+		\colorbox{Black}{%
+			\parbox{6em}{%
+			\hfill\color{White}#2}} \par  % Duration
+		\noindent \textit{#3} \par        % School
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+
+\newcommand{\WorkEntry}[4]{				  % Same as \EducationEntry
+		\noindent \textbf{#1} \hfill      % Jobname
+		\colorbox{Black}{\color{White}#2} \par  % Duration
+		\noindent \textit{#3} \par              % Company
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+
+%%% Begin Document
+%%% ------------------------------------------------------------
+\begin{document}
+% you can upload a photo and include it here...
+%\begin{wrapfigure}{l}{0.5\textwidth}
+%	\vspace*{-2em}
+%		\includegraphics[width=0.15\textwidth]{photo}
+%\end{wrapfigure}
+
+\MyName{Mahmoud Fayyaz}
+\MySlogan{Curriculum Vitae}
+
+\sepspace
+
+%%% Personal details
+%%% ------------------------------------------------------------
+\NewPart{Personal details}{}
+
+	\PersonalEntry{Birth}{August 23, 1991}
+	\PersonalEntry{Address}{286 Borg Haitham, Malak Hafiny St. Sidi Bishr Bahry, Alexandria}
+	\PersonalEntry{Phone}{(+20) 112 154 3305}
+	\PersonalEntry{E-Mail}{\href{mailto:fayyaz.method@gmail.com}{fayyaz.method@gmail.com}}
+	\PersonalEntry{LinkedIn}{\href{http://www.linkedin.com/profile/view?id=95171530&trk=tab_pro}{Mahmoud Fayyaz}}
+
+
+%%% Work experience
+%%% ------------------------------------------------------------
+\NewPart{Work experience}{}
+
+	\EducationEntry{Software Engineer}{Summer 2014}{Umm Al-Qura University}{Working at \href{http://www.gistic.org/}{GIS Technology Innovation Center} at Umm Al-Qura University (UQU).}
+\sepspace
+
+	\EducationEntry{Business Intelligence}{Spring 2014}{Ejada}{Worked As Business Intelligence for out sourcing project for Credit Agricole Egypt. The project was about updating the bank working environment from OFSAA(Oracle Financial Services Analytical Applications) 6 to OFSAA 12}
+\sepspace
+
+	\EducationEntry{Research Assistant}{Fall 2013}{Virginia Tech MENA - Smart CI research Lab}{Research Assistant under the supervision of \href{http://scholar.google.com/citations?user=jCUt0o0AAAAJ&hl=en}{Dr. Mohamed E. Hussein} and \href{http://scholar.google.com/citations?user=aYLNZT4AAAAJ&hl=en}{Dr. Marwan Torki} in Computer Vision (OHR).}
+\sepspace
+
+	\EducationEntry{Teaching Assistant}{Fall 2013}{Alexandria University}{SSP Fall 2014 CC482 Artificial Intelligent teaching assistant with \href{http://scholar.google.com/citations?user=z10Zl1kAAAAJ&hl=en}{Prof. Dr. Amin Shoukry}.\\SSP Fall 2014 CC312 Digital Logic II teaching assistant with Dr. Hanan Hosni.}
+\sepspace
+
+	\EducationEntry{Software Engineer}{Summer 2013}{Webalo}{}
+\sepspace
+
+	\EducationEntry{Software Engineer}{Summer 2012}{Facebook, Summer intern}{Working on building a backend for \href{https://www.facebook.com/help/community}{facebook help community} to be more reliable, scalable, up to date using the Facebook technologies, support searching and integrable with Facebook products.}
+\sepspace
+
+	\EducationEntry{Iphone developer}{Summer 2010}{Wireless Stars inc., Summer intern}{Building IPhone user interface for the company?s main project \href{http://www.intafeen.com/}{Inta Feen}.}
+\newpage
+
+
+%%% Education
+%%% ------------------------------------------------------------
+\NewPart{Education}{}
+
+	\EducationEntry{Al-Ghaith, Bachelor Project}{2012-2013}{Alexandria University}{\textsc{Al-Ghaith} is an arabic semantic search engine that targets the need of better search results in the arabic field due to the lack of useful content.}
+\sepspace
+
+	\EducationEntry{B.Sc. Computer and Systems Engineering}{2009-2013}{Alexandria University}{Graduated with total degree of 83.5 precent.}
+
+%%% Awards
+%%% ------------------------------------------------------------
+\NewPart{Awards}{}
+
+	\AwardEntry{ACM}{Honourable Mention in ACM ICPC World Finals 2013.}
+	\AwardEntry{}{Second place in ACM ACPC 2012.}
+	\AwardEntry{}{Fifth place in ACM ECPC 2012.}
+	\AwardEntry{}{Solid programmers in ACM ECPC 2012.}
+	\AwardEntry{}{Fourth place in ACM ECPC 2011.}
+\sepspace
+
+	\AwardEntry{Google}{Top 3000 contestant Codejam world 2013.}
+	\AwardEntry{CodeJam}{Top 1000 contestant Codejam world 2012.}
+	\AwardEntry{}{Top 3000 contestant Codejam world 2011.}
+	\AwardEntry{}{Qualified to final round Codejam Africa 2011.}
+\sepspace
+
+	\AwardEntry{Facebook}{Qualified to round 2 Hacker cup 2014.}
+	\AwardEntry{Hacker}{Qualified to round 1 Hacker cup 2013.}
+	\AwardEntry{Cup}{Qualified to round 2 Hacker cup 2012.}
+    \AwardEntry{}{Qualified to round 1 Hacker cup 2011.}
+\sepspace
+
+	\AwardEntry{HackerRank}{Ranked 144 out 4,000+ In Code Sprint 5.}
+
+
+%%% Other Experience
+%%% ------------------------------------------------------------
+\NewPart{Other Experience}{}
+
+	\OtherExperienceEntry{TopCoder}{Handle: \href{http://community.topcoder.com/tc?module=MemberProfile&cr=22900634}{fayyaz}}
+	\OtherExperienceEntry{Codeforces}{Handle: \href{http://www.codeforces.com/profile/fayyaz}{fayyaz}}
+	\OtherExperienceEntry{UVA}{Handle: \href{http://uhunt.felix-halim.net/id/79046}{fayyaz}}
+	\OtherExperienceEntry{CodeJam}{Handle: fayyaz}
+    \OtherExperienceEntry{HackerRank}{Handle: \href{https://www.hackerrank.com/fayyaz}{fayyaz}}
+
+%%% Skills
+%%% ------------------------------------------------------------
+\NewPart{Skills}{}
+
+	\SkillsEntry{Languages}{Arabic (mother tongue)}
+	\SkillsEntry{}{English (Very Good)}
+\sepspace
+
+	\SkillsEntry{Software}{\textsc{Competitive Progarmming}, \textsc{Problem Solving}, \textsc{Algorithms}}
+	\SkillsEntry{}{\textsc{Programming}, \textsc{Object-Oriented Design}, \textsc{Design Patterns}}
+	\SkillsEntry{}{\textsc{Java}, \textsc{C++}, \textsc{PHP}}
+
+\newpage
+%%% Projects
+%%% ------------------------------------------------------------
+\NewPart{Projects}{}
+
+\begin{itemize}
+	\item \textsc{Al-Ghaith}, The Arabic Semantic Search Engine.
+    \begin{enumerate}
+    	\item Working and planning a long interval project.
+        \item Understand the concepts of research.
+        \item Working upon large scale data.
+    \end{enumerate}
+	\item Facebook Intern Project.
+	\begin{enumerate}
+		\item Working in huge code set and under great pressure.
+		\item Learning so much of new Facebook technologies.
+		\item Working upon large scale data.
+		\item Understanding work concepts and mentality.
+	\end{enumerate}
+
+	\end{itemize}
+
+%%% References
+%%% ------------------------------------------------------------
+\NewPart{References}{}
+Available upon request
+\end{document}
