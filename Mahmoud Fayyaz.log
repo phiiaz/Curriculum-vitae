@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.11)  14 SEP 2014 13:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 DEC 2014 11:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -405,33 +405,83 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip55
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2014/04/23 v1.8e multicolumn formatting (FMi)
+\c@tracingmulticols=\count118
+\mult@box=\box29
+\multicol@leftmargin=\dimen128
+\c@unbalance=\count119
+\c@collectmore=\count120
+\doublecol@number=\count121
+\multicoltolerance=\count122
+\multicolpretolerance=\count123
+\full@width=\dimen129
+\page@free=\dimen130
+\premulticols=\dimen131
+\postmulticols=\dimen132
+\multicolsep=\skip56
+\multicolbaselineskip=\skip57
+\partial@page=\box30
+\last@line=\box31
+\maxbalancingoverflow=\dimen133
+\mult@rightbox=\box32
+\mult@grightbox=\box33
+\mult@gfirstbox=\box34
+\mult@firstbox=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\c@columnbadness=\count124
+\c@finalcolumnbadness=\count125
+\last@try=\dimen134
+\multicolovershoot=\dimen135
+\multicolundershoot=\dimen136
+\mult@nat@firstbox=\box53
+\colbreak@box=\box54
+\mc@col@check@num=\count126
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
-\spacebox=\skip56
+\spacebox=\skip58
 
-No file "Mahmoud Fayyaz".aux.
+(./Mahmoud Fayyaz.aux)
 \openout1 = `"Mahmoud Fayyaz.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-LaTeX Info: Redefining \microtypecontext on input line 85.
+LaTeX Info: Redefining \microtypecontext on input line 91.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -448,16 +498,16 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count118
-\scratchdimen=\dimen128
-\scratchbox=\box29
-\nofMPsegments=\count119
-\nofMParguments=\count120
+\scratchcounter=\count127
+\scratchdimen=\dimen137
+\scratchbox=\box55
+\nofMPsegments=\count128
+\nofMParguments=\count129
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count121
-\MPscratchDim=\dimen129
-\MPnumerator=\count122
-\makeMPintoPDFobject=\count123
+\MPscratchCnt=\count130
+\MPscratchDim=\dimen138
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
 \everyMPtoPDFconversion=\toks34
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -508,23 +558,25 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring OFF on input line 85.
+\AtBeginShipoutBox=\box56
+Package hyperref Info: Link coloring OFF on input line 91.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count124
+\c@section@level=\count133
 )
-LaTeX Info: Redefining \ref on input line 85.
-LaTeX Info: Redefining \pageref on input line 85.
-LaTeX Info: Redefining \nameref on input line 85.
+LaTeX Info: Redefining \ref on input line 91.
+LaTeX Info: Redefining \pageref on input line 91.
+LaTeX Info: Redefining \nameref on input line 91.
+
+(./Mahmoud Fayyaz.out) (./Mahmoud Fayyaz.out)
 \@outlinefile=\write3
 \openout3 = `"Mahmoud Fayyaz.out"'.
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 92.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 98.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -534,12 +586,12 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 93.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 99.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+msa on input line 101.
+LaTeX Font Info:    Try loading font information for U+msa on input line 107.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -547,59 +599,50 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 101.
+LaTeX Font Info:    Try loading font information for U+msb on input line 107.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [1
-
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (2.35223pt too wide) in paragraph at lines 166--166
-[]\OT1/cmr/m/it/10.95 (-20) HackerRank 
+)
+Overfull \hbox (2.54434pt too wide) in paragraph at lines 113--113
+[]\OT1/cmr/m/it/10.95 (-20) Professional 
  []
 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 128.
 
-Overfull \hbox (2.35223pt too wide) in paragraph at lines 177--177
-[]\OT1/cmr/m/it/10.95 (-20) HackerRank 
- []
-
-[2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 197.
-
- (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 197.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 128.
+ [1
 
-(./Mahmoud Fayyaz.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (2.35223pt too wide) in paragraph at lines 185--185
+[]\OT1/cmr/m/it/10.95 (-20) HackerRank 
+ []
 
-
-Package rerunfilecheck Warning: File `"Mahmoud Fayyaz".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Mahmoud Fayyaz".out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 217.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
+[2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
+ (./Mahmoud Fayyaz.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
+Package rerunfilecheck Info: File `"Mahmoud Fayyaz".out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 192.
  ) 
 Here is how much of TeX's memory you used:
- 10539 strings out of 493117
- 162667 string characters out of 6135433
- 360486 words of memory out of 5000000
- 13799 multiletter control sequences out of 15000+600000
- 18992 words of font info for 67 fonts, out of 8000000 for 9000
+ 10647 strings out of 493117
+ 164467 string characters out of 6135433
+ 364880 words of memory out of 5000000
+ 13912 multiletter control sequences out of 15000+600000
+ 18544 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,5n,42p,393b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,6n,42p,403b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/te
@@ -608,10 +651,10 @@ ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2014/
 texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on "Mahmoud Fayyaz.pdf" (3 pages, 95194 bytes).
+Output written on "Mahmoud Fayyaz.pdf" (2 pages, 92377 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
- 18945 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
+ 16897 words of extra memory for PDF output out of 17280 (max. 10000000)
 
