@@ -1,7 +1,7 @@
 ---
 title: "README"
 author: "Mahmoud Fayyaz"
-date: "September 14, 2014"
+date: "June 4, 2017"
 output: html_document
 ---
 
@@ -11,8 +11,7 @@ Curriculum-vitae
 
 **What to expect here?**
 
-I have made this *Repo* to track down my CV quick changes specially as a recent graduate.
+I have made this *Repo* to track down my CV quick changes.
 
 You expect to find all the *LaTeX* files and pdf version of my CV. 
 
-**Feel free to use what ever you need**
