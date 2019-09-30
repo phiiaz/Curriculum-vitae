@@ -1,0 +1,110 @@
+%\title{Mahmoud Fayyaz CV}
+\documentclass[paper=a4,fontsize=11pt]{scrartcl} % KOMA-article class
+							
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{amsmath,amsfonts,amsthm}     % Math packages
+\usepackage{graphicx}                    % Enable pdflatex
+\usepackage[svgnames]{xcolor}            % Colors by their 'svgnames'
+\usepackage{geometry}
+	\textheight=700px                    % Saving trees ;-)
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{multicol}
+
+\frenchspacing              % Better looking spacings after periods
+\pagestyle{empty}           % No pagenumbers/headers/footers
+
+%%% Custom sectioning (sectsty package)
+%%% ------------------------------------------------------------
+\usepackage{sectsty}
+
+\sectionfont{%			            % Change font of \section command
+	\usefont{OT1}{phv}{b}{n}%		% bch-b-n: CharterBT-Bold font
+	\sectionrule{0pt}{0pt}{-5pt}{3pt}}
+
+%%% Macros
+%%% ------------------------------------------------------------
+\newlength{\spacebox}
+\settowidth{\spacebox}{8888888888}			% Box to align text
+\newcommand{\sepspace}{\vspace*{0.5em}}		% Vertical space macro
+
+\newcommand{\MyName}[1]{ % Name
+		\Huge \usefont{OT1}{phv}{b}{n} \hfill #1
+		\par \normalsize \normalfont}
+		
+\newcommand{\MySlogan}[1]{ % Slogan (optional)
+		\large \usefont{OT1}{phv}{m}{n}\hfill \textit{#1}
+		\par \normalsize \normalfont}
+
+\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
+
+\newcommand{\EducationEntry}[4]{
+		\noindent \textbf{#1} \hfill      % Study
+		\colorbox{Black}{%
+			\parbox{6em}{%
+			\hfill\color{White}#2}} \par  % Duration
+		\noindent \textit{#3} \par        % School
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+		
+\newcommand{\WorkEntry}[4]{				  % Same as \EducationEntry
+		\noindent \textbf{#1} \hfill      % Jobname
+		\colorbox{Black}{\color{White}#2} \par  % Duration
+		\noindent \textit{#3} \par              % Company
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+
+%%% Begin Document
+%%% ------------------------------------------------------------
+\begin{document}
+% you can upload a photo and include it here...
+%\begin{wrapfigure}{l}{0.5\textwidth}
+%	\vspace*{-2em}
+%		\includegraphics[width=0.15\textwidth]{photo}
+%\end{wrapfigure}
+
+\MyName{\href{http://phiiaz.github.io/Resume}{Mahmoud Fayyaz}}
+\MySlogan{\href{mailto:fayyaz.method@gmail.com}{fayyaz.method@gmail.com}}
+
+\sepspace
+
+%%% Work experience
+%%% ------------------------------------------------------------
+\NewPart{Work experience}{}
+
+	\WorkEntry{Software Engineer}{Jul 2015}{Google}{
+	\begin{itemize}
+		\item Techlead \href{https://gsuiteupdates.googleblog.com/2018/08/manage-meeting-rooms-efficiently.html}{\color{blue}Calendar room insights.}
+		\item Working as Backend SWE on Google calendar resources.
+		\item Working as Frontend SWE on \href{https://www.google.se/work/chrome/devices/for-meetings/}{\color{blue}Chromebox for meetings} as the enterprise solution for video conferencing and meetings offered by Google.
+	\end{itemize}}
+\sepspace
+
+	\WorkEntry{Software Engineer}{Aug 2014 - Apr 2015}{Umm Al-Qura University}{Working at \href{http://www.gistic.org/}{\color{blue}GIS Technology Innovation Center} at Umm Al-Qura University (UQU).}
+
+	\WorkEntry{Research Assistant}{Oct 2013 - Feb 2014}{Virginia Tech MENA - Smart CI research Lab}{Research Assistant under the supervision of \href{http://scholar.google.com/citations?user=jCUt0o0AAAAJ&hl=en}{\color{blue}Dr. Mohamed E. Hussein} and \href{http://scholar.google.com/citations?user=aYLNZT4AAAAJ&hl=en}{\color{blue}Dr. Marwan Torki} in Computer Vision (OHR).
+	\begin{itemize}
+		\item \href{http://arxiv.org/abs/1411.3519}{\color{blue}Window-Based Descriptors for Arabic Handwritten Alphabet Recognition: A Comparative Study on a Novel Dataset}.
+		\item \href{http://arxiv.org/abs/1411.4670}{\color{blue}AlexU-Word: A New Dataset for Isolated-Word Closed-Vocabulary Offline Arabic Handwriting Recognition}.
+	\end{itemize}}
+
+	\WorkEntry{Teaching Assistant}{Sep 2013 - Jan 2014}{Alexandria University}{
+	\begin{itemize}
+	 	\item SSP Fall 2014 CC482 Artificial Intelligent teaching assistant with \href{http://scholar.google.com/citations?user=z10Zl1kAAAAJ&hl=en}{\color{blue}Prof. Dr. Amin Shoukry}.
+		\item SSP Fall 2014 CC312 Digital Logic II teaching assistant with Dr. Hanan Hosni.
+	\end{itemize}}
+
+
+	\WorkEntry{Software Engineer}{Summer 2012}{Facebook, Summer intern}{Working on building a backend for \href{https://www.facebook.com/help/community}{\color{blue}facebook help community} to be more reliable, scalable, up to date using the Facebook technologies, support searching and integrable with Facebook products.}
+
+
+
+%%% Education
+%%% ------------------------------------------------------------
+\NewPart{Education}{}
+
+	\EducationEntry{B.Sc. Computer and Systems Engineering}{2009-2013}{Alexandria University}{Graduated with total degree of 83.5 precent.}
+
+\end{document}
